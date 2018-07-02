@@ -7,10 +7,10 @@ Quarantine a VM and Explore the Quarantine Policy
 
 Overview
 ++++++++
+
 In this task we will place a VM into quarantine and observe the behavior of the VM. We will also inspect the configurable options inside the quarantine policy.
 
-.. note::
-Estimated time to complete: -- MINUTES
+.. note:: Estimated time to complete: -- MINUTES
 
 
 Confirm Communication between flow-abc-1 and flow-abc-2
@@ -25,8 +25,9 @@ Click **Actions > Launch Console**.
 
 
 Log into both VMs with the following user credentials:
-User name: root
-Password: nutanix/4u
+
+* User name: **root**
+* Password: **nutanix/4u**
 
 Find the ips of the VMs via the command *ifconfig*, and start a continuous ping from the **flow-abc-1** VM to the **flow-abc-2** VM.
 
@@ -35,7 +36,7 @@ Quarantine a VM and Edit The Quarantine Policy
 
 Quarantine the **flow-abc-2** VM by navigating to **Explore > VMs**.
 
-Select **flow-abc-2 > Actions > Quarantine VMs **. Select **Forensic** and click **Quarantine**.
+Select **flow-abc-2 > Actions > Quarantine VMs**. Select **Forensic** and click **Quarantine**.
 
 .. figure:: images/select_forensic.png
 

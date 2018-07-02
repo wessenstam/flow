@@ -8,9 +8,7 @@ Flow
 Overview
 ++++++++
 
-.. note::
-Estimated time to complete: -- MINUTES
-
+.. note:: Estimated time to complete: -- MINUTES
 
 In this exercise you will enable Nutanix Flow, formally known as Microsegmentation, and create the VMs to be used throughout the remaining Flow exercises.
 
@@ -18,7 +16,7 @@ In this exercise you will enable Nutanix Flow, formally known as Microsegmentati
 Enabling Microsegmentation
 ++++++++++++++++++++++++++
 
-Open https://<Prism-Central-IP>:9440/ in a browser and log in.
+Open **https://<Prism-Central-IP>:9440/** in a browser and log in.
 
 From the navigation bar, click the question mark at the top right corner and expand the **New in Prism Central** section of the menu.
 
@@ -27,8 +25,7 @@ Select the **Enable Microsegmentation** check box within the **Enable Microsegme
 
 .. figure:: images/enable_flow.png
 
-.. note::
-Flow can only be enabled once per Prism Central instance. If **Microsegmentation** displays a green check mark next to it, that means Microsegmentation has already been enabled for the Prism Central instance being used.
+.. note:: Flow can only be enabled once per Prism Central instance. If **Microsegmentation** displays a green check mark next to it, that means Microsegmentation has already been enabled for the Prism Central instance being used.
 
 Click **Enable**
 
@@ -37,7 +34,8 @@ Click **Enable**
 
 Create Five VMs
 ++++++++++++++++++++++
-Now you will create the **five** virtual machines you will use to test the capabilities of Nutanix Flow. Create these virtual machines from the base VM in Prism Central called CentOS.
+
+Now you will create the **five** virtual machines you will use to test the capabilities of Nutanix Flow. Create these virtual machines from the base VM in Prism Central called **CentOS**.
 
 In **Prism Central > Explore > VMs**, click **Create VM**.
 

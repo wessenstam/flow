@@ -10,8 +10,7 @@ Overview
 
 In this exercise you will create an application category named **app-abc**. You will assign the **AppType: app-abc** category to our application VM, which in this example is the **flow-abc-5** VM. Finally you will create a security policy to restrict the application VM from receiving ICMP ping requests from VMs outside of the **programs-abc: sales-abc** category.
 
-.. note::
-Estimated time to complete: -- MINUTES
+.. note:: Estimated time to complete: -- MINUTES
 
 Create and Assign Categories
 ++++++++++++++++++++++++++++
@@ -65,6 +64,7 @@ Fill out the following fields and click **Next**:
 - **Name** - Protect-app-abc, replacing abc with your initials.
 - **Purpose** - Protect app-abc from ICMP outside of sales VMs.
 - **Secure this app** - AppType: app-abc
+
 Do NOT select the check box for the option **Filter the app type by category**.
 
 .. figure:: images/create_app_vm_sec_pol.png

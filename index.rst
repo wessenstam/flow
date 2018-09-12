@@ -2,22 +2,16 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Labs
-  :name: _labs
+  :caption: Flow Labs
+  :name: _flow_labs
   :hidden:
 
-  enable_flow/enable_flow
-  quarantine_vm/quarantine_vm
-  isolate_environments/isolate_environments
-  secure_app/secure_app
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Optional Labs
-  :name: _optional_labs
-  :hidden:
-
-  flow_visualization/flow_viz
+  what_is_flow/what_is_flow
+  flow_enable/flow_enable
+  flow_quarantine_vm/flow_quarantine_vm
+  flow_isolate_environments/flow_isolate_environments
+  flow_secure_app/flow_secure_app
+  flow_visualization/flow_visualization
 
 .. toctree::
   :maxdepth: 2

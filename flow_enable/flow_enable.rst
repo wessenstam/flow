@@ -16,7 +16,11 @@ In this exercise you will enable Nutanix Flow, formally known as Microsegmentati
 Enabling Microsegmentation
 ++++++++++++++++++++++++++
 
-Open https://<Prism-Central-IP>:9440/ in a browser and log in.
+Open https://<Prism-Central-IP>:9440/ in the Chrome browser and log in. 
+
+.. note::
+
+  Do not use Firefox for the Flow policy steps in the following exercises.
 
 From the navigation bar, click the question mark at the top right corner and expand the **New in Prism Central** section of the menu.
 
